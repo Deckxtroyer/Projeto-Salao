@@ -1,0 +1,99 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+body{
+  margin: 0;
+  padding: 0;
+  font-family: verdana;
+  font-weight: bold;
+  background-image: url('sb.jpg');
+  background-size: cover;
+}
+img{
+  width:160px;
+ height:150px;
+ position: center;
+ top:-100px;
+}
+.login-box{  
+  padding: 10px 40px;
+  width: 400px;
+  height: 440px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  border-color: #ffffff;
+  border-radius:80px 0px 80px 0px;
+  border-width: 5px;
+}
+  .login-box {
+  text-align: left;
+  font-family: Cooper;
+  color:#ffffff;
+  font-size: 30px;
+  margin-bottom: 30px;
+  padding: 7px;
+}
+.textbox{
+  
+  overflow: hidden;
+  font-size:16px;
+  color: #ffffff;
+  align-items: flex-start;
+  
+}
+.textbox i{
+  width: 10px;
+  text-align: center;
+}
+.textbox input{
+  border: none;
+  border-bottom: 1px solid white;
+  outline: none;
+  background: transparent;
+  color: #ffffff;
+  font-size: 15px;
+ 
+}
+.btn1{
+  font-weight: bold;
+  border: none;
+  outline: none;
+  transition: 0.2s;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background: #fe0cce;
+  color: #ffffff;
+  font-size: 15px;
+  font-family: hevetica;
+  cursor: pointer;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+#link{
+  font-size: 15px;
+  color: #ffffff
+  
+}
+.login input{
+  width: 100%;
+  margin-bottom: 21px;
+}
+.login p{
+  margin: 0;
+  padding: 0;
+}
+p3{
+  margin: 0;
+ padding-top: 10px;
+ padding-left: 0;
+ padding-bottom: 20px;
+ text-transform: uppercase;
+ text-align: center;
+ font-size: 25px;
+}
