@@ -19,10 +19,10 @@ $result = mysqli_query($conexao, $query);
 
 $row = mysqli_num_rows($result);
 //verifica se os dados apresentados tem algum retorno
-if($row == 1) {
+if($row >= 1) {
 	$cadastro = mysqli_fetch_assoc($result);
 	$_SESSION['nome'] = $cadastro['nome'];
-	header('Location: site.php'); //retornou 0, e entrou no site
+	header('Location: index.html'); //retornou 0, e entrou no site
 	exit();
 } else {
 	$_SESSION['nao_autenticado'] = true;
