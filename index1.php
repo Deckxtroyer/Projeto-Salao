@@ -13,6 +13,9 @@
 
         </head>
         <body>
+
+        <a href="index.html"><input type="submit" class="btn1"  value="Voltar!"></a>
+        
             <div class="login-box">
                 <center>
                         <img src="icone11.png" width="150px" height="150px"class="img2"><Br>
@@ -29,7 +32,6 @@
 
                         </form>
                     </div>   <br>
-                    <a href="index.html" id="link">Voltar</a>
                     <a href="cadastro.php" id="link">Cadastrar-se</a>
                 </center>
 

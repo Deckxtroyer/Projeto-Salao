@@ -6,7 +6,7 @@ session_start();
 include('conexao.php');
 //verifica se nome e senha estao vazia
 if(empty($_POST['nome']) || empty($_POST['senha'])) {
-	header('Location: index.php');
+	header('Location: index.html');
 	exit();
 }
 $conexao = mysqli_connect("localhost","root","","cadastro"); //abre uma conexao com o banco
@@ -26,6 +26,6 @@ if($row >= 1) {
 	exit();
 } else {
 	$_SESSION['nao_autenticado'] = true;
-	header('Location: index.php'); //retornou 1, recarregou a pag
+	header('Location: index.html'); //retornou 1, recarregou a pag
 	exit();
 }

@@ -4,8 +4,13 @@ body{
     font-family: Script MT;
     font-weight: bold;
     color: white;
-    background-image: url('f1.jpg');
-    background-size: cover;
+    width: 100%;
+    background-image: url('fundo.svg');
+    background-size: 100% 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
 }
 .img1{
     box-shadow:	6px	6px	6px 	rgba(10, 10, 10, 0.35);
@@ -23,8 +28,8 @@ body{
     width: 35%;
   }
 #box {
-    width: 560px;
-    height: 400px;
+    width: 50%;
+	  height: 400px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -100,6 +105,24 @@ body{
     height: 25px;
     box-shadow:	6px	6px	6px 	rgba(10, 10, 10, 0.35);
    
+}
+.btn1{
+  font-weight: bold;
+  border: none;
+  border-radius: 0 50px 50px 0;
+  outline: none;
+  transition: 0.2s;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background:#3b3c8e ;
+  color: white;
+  cursor: pointer;
+  width: 20%;
+  height: 40px;
+  box-shadow:	3px	3px	rgba(10, 10, 10, 0.35);
+  position: relative;
+  top: 8px;
+  
 }
 .sltc{
     font-weight: bold;

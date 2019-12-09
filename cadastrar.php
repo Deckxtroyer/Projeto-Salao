@@ -39,7 +39,7 @@ if($rowcpf >=1 || $rowrg >=1 || $rowemail >=1) {
 	$cadastro = mysqli_fetch_assoc($resultcpf && $resultemail && $resultrg);
 	$_SESSION['nome'] = $cadastro['nome'];
 
-		echo "<meta http-equiv='refresh' content='0 URL=cadastro.php'>
+		echo "<meta http-equiv='refresh' content='0 URL=cadastro.html'>
 	<script type=\"text/javascript\">
 	alert(\"Este CPF ou RG ou E-MAIL já existe\");
 	</script>
@@ -53,6 +53,6 @@ if($rowcpf >=1 || $rowrg >=1 || $rowemail >=1) {
 	mysqli_query($conexao,$sql);
 	mysqli_close($conexao);
 
-	header('Location: index.php');
+	header('Location: index1.php');
 }
 ?>
