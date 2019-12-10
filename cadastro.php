@@ -25,87 +25,13 @@
     </head>
     <body>
     <a href="index.html"><input type="submit" class="btn1"  value="Voltar!"></a><br>
+    
 
         <div id="box">
-        
             <center>
-                    <h2 class="h22">Tela de Cadastro:</h2>
-                    
-                <form method="POST" action="cadastrar.php">
-                        <font color="white" size="3px">
-                        
-                
-                        <div id="div1">
-                                <img src="user-3.png" width="25px" height="25px" class="img1">
-                                <input type="text" name="nome" class="textbox" required>
-                        </div><br>
-
-
-                        <div id="div2">
-                                <img src="idade.png" width="25px" height="25px" class="img1">
-                                <input type="date" name="idade" class="textbox" required>
-                        </div><br>
-
-
-                        <div id="div3">
-                                <img src="local.png" width="25px" height="25px" class="img1">
-                                <input type="text" name="endereco" class="textbox" required>
-                        </div><br>
-
-
-                        <div id="div4">
-                                <img src="telefone.png" width="25px" height="25px" class="img1">
-                                <input type="text" name="fone" class="textbox" placeholder="000000-0000" maxlength="12" OnKeyPress="formatar('##-#####-####', this)" required><br>
-                        </div><br>
-
-
-                        <div id="div5">
-                                <img src="rg.png" width="25px" height="25px" class="img1"> 
-                                <input type="text" name="rg" class="textbox" placeholder="0000000000-0" maxlength="12" OnKeyPress="formatar('##########-#', this)" required>
-                        </div><br>
-
-
-                        <div id="div6">
-                                <img src="cpf.png" width="25px" height="25px" class="img1"> 
-                                <input type="text" name="cpf" class="textbox" placeholder="000.000.000-00" maxlength="14" OnKeyPress="formatar('###.###.###-##', this)" required><br>
-                        </div><br>
-
-
-                        <div id="div7">
-                                <img src="email.png" width="25px" height="25px" class="img1"> 
-                                <input type="email" name="email" class="textbox" placeholder="example@gmail.com" required>
-                        </div><br>
-
-
-                        <div id="div8">
-                            <img src="padlock.png" width="25px" height="25px" class="img1">
-                            <input type="password" name="senha" class="textbox" placeholder="Digite uma senha" required>
-                        </div><br>
-                        
-
-
-                        <div id="div10">
-                            <img src="sexo.png" width="25px" height="25px" class="img1">
-                            <select name="sexo" class="sltc">
-                                <option value="M" selected>Masculino</option> 
-                                <option value="F">Feminino</option>
-                            </select>
-
-                        </div>
-
-
-                        <div id="div11"> 
-                        <input type="file" name="arquivo" id="arquivo" onchange="previewImagem()"><br><br>
-                        <input type="submit" class="btn" value="Cadastrar">
-                                
-                        </div>
-                </form>
-            </center>
-            
-    </div>
-    <img style="width: 120px; height: 120px;border-radius:50%;position:absolute;
-                                left: 800px;top: 220px;border: 2px solid #fff;" name="img" id='img'>
-                                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+                    <h2 class="h22">Tela de Cadastro</h2><img style="width: 100px; height: 100px;border-radius:50%;position:absolute;
+                                left: 600px;top: 5px;border: 1px solid #fff;" name="img" id='img'>
+                                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		
 		<script>
 			function previewImagem(){
@@ -125,6 +51,76 @@
 				}
 			}
 		</script>
-                               
+
+                <form method="POST" action="cadastrar.php">
+                        <font color="white" size="3px">
+
+
+                        <div id="div1">
+                                <img src="user-3.png" width="22px" height="22px" class="img1">
+                                <input type="text" name="nome" class="textbox" required>
+                        </div><br>
+
+
+                        <div id="div2">
+                                <img src="idade.png" width="22px" height="22px" class="img1">
+                                <input type="date" name="idade" class="textbox" required>
+                        </div><br>
+
+
+                        <div id="div3">
+                                <img src="local.png" width="22px" height="22px" class="img1">
+                                <input type="text" name="endereco" class="textbox" required>
+                        </div><br>
+
+
+                        <div id="div4">
+                                <img src="telefone.png" width="22px" height="22px" class="img1">
+                                <input type="text" name="fone" class="textbox" placeholder="000000-0000" maxlength="12" OnKeyPress="formatar('##-####-####', this)" required><br>
+                        </div><br>
+
+
+                        <div id="div5">
+                                <img src="rg.png" width="22px" height="22px" class="img1"> 
+                                <input type="text" name="rg" class="textbox" placeholder="0000000000-0" maxlength="12" OnKeyPress="formatar('##########-#', this)" required>
+                        </div><br>
+
+
+                        <div id="div6">
+                                <img src="cpf.png" width="22px" height="22px" class="img1"> 
+                                <input type="text" name="cpf" class="textbox" placeholder="000.000.000-00" maxlength="14" OnKeyPress="formatar('###.###.###-##', this)" required><br>
+                        </div><br>
+
+
+                        <div id="div7">
+                                <img src="email.png" width="22px" height="22px" class="img1"> 
+                                <input type="email" name="email" class="textbox" placeholder="example@gmail.com" required>
+                        </div><br>
+
+
+                        <div id="div8">
+                            <img src="padlock.png" width="22px" height="22px" class="img1">
+                            <input type="password" name="senha" class="textbox" placeholder="Digite uma senha" required>
+                        </div><br>
+                        
+
+
+                        <div id="div10">
+                            <img src="sexo.png" width="22px" height="22px" class="img1">
+                            <select name="sexo" class="sltc">
+                                <option value="M" selected>Masculino</option> 
+                                <option value="F">Feminino</option>
+                            </select>
+                        </div><br>
+
+
+                        <div id="div11">
+                        <input type="file" name="arquivo" id="arquivo" onchange="previewImagem()"><br><br>
+                                <input type="submit" class="btn" value="Cadastrar">
+                        </div>
+                </form>
+            </center>
+        
+    </div>
     </body>
 </html>

@@ -18,15 +18,15 @@
         
             <div class="login-box">
                 <center>
-                        <img src="icone11.png" width="150px" height="150px"class="img2"><Br>
+                        <img src="icone11.png" width="140px" height="140px"class="img2"><Br>
                             <p>Salão de Beleza</p>
                         <br>
                     <div class="textbox">
 
                         <form method="POST" action="login.php">
-                            <img src="user-3.png" width="25px" height="25px" class="img1">
+                            <img src="user-3.png" width="22px" height="22px" class="img1">
                             <input type="text" name="nome" class="textbox1"><br><br>
-                            <img src="padlock.png" width="25px" height="25px" class="img1">
+                            <img src="padlock.png" width="22px" height="22px" class="img1">
                             <input type="password" name="senha" class="textbox1"><br><br>
                             <a href="index.html"><input type="submit" class="btn"  value="Entrar"></a>
 

@@ -53,6 +53,6 @@ if($rowcpf >=1 || $rowrg >=1 || $rowemail >=1) {
 	mysqli_query($conexao,$sql);
 	mysqli_close($conexao);
 
-	header('Location: index.html');
+	header('Location: index1.php');
 }
 ?>

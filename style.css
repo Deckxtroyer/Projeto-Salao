@@ -1,53 +1,53 @@
-body {
-    width: 100%;
-    background-image: url('fundo.svg');
-    background-size: 100% 100%;
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(45deg, #c43a30 0%, #3b3c8e 100%);
+    background-size: cover;     
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -ms-background-size: cover;
     -o-background-size: cover;
+}
     font-family: Script MT;
 }
-
-.img1 {
+.img1{
     color: white;
-    box-shadow: 6px 6px 6px rgba(10, 10, 10, 0.35);
+    box-shadow:	6px	6px	6px 	rgba(10, 10, 10, 0.35);
     border-radius: 100px;
     position: relative;
-    top: -40px;
+    top:-50px;
 }
+.img2{
+     box-shadow:	6px	6px	6px 	rgba(10, 10, 10, 0.35);
+     border-radius: 100px;
 
-.img2 {
-    box-shadow: 6px 6px 6px rgba(10, 10, 10, 0.35);
-    border-radius: 100px;
 }
-
-p {
+p{
     color: white;
-    font-size: 30px;
+    font-size: 150%;
     position: relative;
     top: -20px;
 }
 
-.login-box {
+.login-box{
+
     padding: 10px 40px;
-    width: 50%;
-    height: 450px;
+    width: 55%;
+	  height: 450px;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%,-50%);
     color: white;
     border: 2px solid #000;
     box-sizing: border-box;
     border-color: #ffffff;
-    border-radius: 80px 0px 80px 0px;
+    border-radius:80px 0px 80px 0px;
     border-width: 5px;
-    box-shadow: 9px 9px 9px rgba(10, 10, 10, 0.35);
-    ;
-}
+    box-shadow:	9px	9px	9px 	rgba(10, 10, 10, 0.35);;
 
-.textbox1 {
+}
+.textbox1{
     border: none;
     border-bottom: 1px solid white;
     outline: none;
@@ -56,10 +56,9 @@ p {
     font-size: 15px;
     width: 80%;
     position: relative;
-    top: -42px;
+    top:-13px;
 }
-
-.btn {
+.btn{
     font-weight: bold;
     border: none;
     border-radius: 50px;
@@ -67,17 +66,16 @@ p {
     transition: 0.2s;
     letter-spacing: 1px;
     text-transform: uppercase;
-    background: #3b3c8e;
+    background:#3b3c8e ;
     color: white;
     cursor: pointer;
     width: 80%;
-    height: 40px;
-    box-shadow: 6px 6px 6px rgba(10, 10, 10, 0.35);
+    height: 35px;
+    box-shadow:	6px	6px	6px 	rgba(10, 10, 10, 0.35);
     position: relative;
-    top: -40px;
+    top:-20px;
 }
-
-.btn1 {
+.btn1{
     font-weight: bold;
     border: none;
     border-radius: 0 50px 50px 0;
@@ -85,17 +83,21 @@ p {
     transition: 0.2s;
     letter-spacing: 1px;
     text-transform: uppercase;
-    background: #3b3c8e;
+    background:#3b3c8e ;
     color: white;
     cursor: pointer;
-    width: 15%;
+    width: 20%;
     height: 40px;
-    box-shadow: 3px 3px rgba(10, 10, 10, 0.35);
+    box-shadow:	3px	3px	rgba(10, 10, 10, 0.35);
+    position: relative;
+    top: 8px;
+    
 }
-
-#link {
+#link{
     color: white;
     font-size: 20px;
     position: relative;
-    top: -40px;
+    top:-35px;
+    width: 50%;
+    height: 20px;
 }
