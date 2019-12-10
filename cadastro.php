@@ -24,15 +24,17 @@
         </script>
     </head>
     <body>
-    <a href="index.html"><input type="submit" class="btn1"  value="Voltar!"></a>
+    <a href="index.html"><input type="submit" class="btn1"  value="Voltar!"></a><br>
 
         <div id="box">
+        
             <center>
-                    <h2 class="h22">Tela de Cadastro</h2>
+                    <h2 class="h22">Tela de Cadastro:</h2>
+                    
                 <form method="POST" action="cadastrar.php">
                         <font color="white" size="3px">
-
-
+                        
+                
                         <div id="div1">
                                 <img src="user-3.png" width="25px" height="25px" class="img1">
                                 <input type="text" name="nome" class="textbox" required>
@@ -53,7 +55,7 @@
 
                         <div id="div4">
                                 <img src="telefone.png" width="25px" height="25px" class="img1">
-                                <input type="text" name="fone" class="textbox" placeholder="000000-0000" maxlength="12" OnKeyPress="formatar('##-####-####', this)" required><br>
+                                <input type="text" name="fone" class="textbox" placeholder="000000-0000" maxlength="12" OnKeyPress="formatar('##-#####-####', this)" required><br>
                         </div><br>
 
 
@@ -88,15 +90,41 @@
                                 <option value="M" selected>Masculino</option> 
                                 <option value="F">Feminino</option>
                             </select>
-                        </div><br>
+
+                        </div>
 
 
-                        <div id="div11">
-                                <input type="submit" class="btn" value="Cadastrar"><br>
+                        <div id="div11"> 
+                        <input type="file" name="arquivo" id="arquivo" onchange="previewImagem()"><br><br>
+                        <input type="submit" class="btn" value="Cadastrar">
+                                
                         </div>
                 </form>
             </center>
-        
+            
     </div>
+    <img style="width: 120px; height: 120px;border-radius:50%;position:absolute;
+                                left: 800px;top: 220px;border: 2px solid #fff;" name="img" id='img'>
+                                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		
+		<script>
+			function previewImagem(){
+				var arquivo = document.querySelector('input[name=arquivo]').files[0];
+				var preview = document.querySelector('img[name=img]');
+				
+				var reader = new FileReader();
+				
+				reader.onloadend = function () {
+					preview.src = reader.result;
+				}
+				
+				if(arquivo){
+					reader.readAsDataURL(arquivo);
+				}else{
+					preview.src = "";
+				}
+			}
+		</script>
+                               
     </body>
 </html>

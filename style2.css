@@ -1,115 +1,99 @@
 body{
-    margin: 0;
-    padding: 0;
-    font-family: Script MT;
-    font-weight: bold;
-    color: white;
-    width: 100%;
-    background-image: url('fundo.svg');
-    background-size: 100% 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -ms-background-size: cover;
-    -o-background-size: cover;
+  margin: 0;
+  padding: 0;
+  font-family: Script MT;
+  font-weight: bold;
+  color: white;
+  width: 100%;
+  background-image: url('fundo.svg');
+  background-size: 100% 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
 }
 .img1{
-    box-shadow:	6px	6px	6px 	rgba(10, 10, 10, 0.35);
-    border-radius: 100px;
+  box-shadow:	6px	6px	6px 	rgba(10, 10, 10, 0.35);
+  border-radius: 100px;
 }
 .textbox{
-    overflow: hidden;
-    font-size:16px;
-    color: #ffffff;
-    align-items: flex-start;
-    border: none;
-    border-bottom: 1px solid white;
-    outline: none;
-    background: transparent;
-    width: 35%;
-  }
-#box {
-    width: 50%;
-	  height: 400px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    align-items: center;
-    transform: translate(-50%,-50%);
-    color: white;
-    border: 2px solid #000;
-    box-sizing: border-box;
-    border-color: #ffffff;
-    border-radius:80px 0px 80px 0px;
-    border-width: 5px;
-    box-shadow:	6px	6px	6px 	rgba(10, 10, 10, 0.35);
-  }
-#div1{
-    left: -22%;
-    position: relative;
-    
-  }
-  #div2{
-   left: -22%;
-    position: relative;
-  }
-  #div3{
-    left: -22%;
-    position: relative;
-  }
-  #div4{
-   left: -22%;
-    position: relative;
-  }
-  #div5{
-    left: -22%;
-    position: relative;
-  }
-  #div6{
-    top: -248px;
-    left: 24%;
-    position: relative;
-  }
-  #div7{
-    top: -248px;
-    left: 24%;
-    position: relative;
+  overflow: hidden;
+  font-size:16px;
+  color: #ffffff;
+  align-items: flex-start;
+  border: none;
+  border-bottom: 1px solid white;
+  outline: none;
+  background: transparent;
+  width: 35%;
 }
-  #div8{
-    top: -248px;
-    left: 24%;
-    position: relative;
-  }
-  #div10{
-    top: -244px;
-    left:24%;
-    position: relative;
-  }
-  #div11{
-    top: -230px;
-    left: 28%;
-    position: relative;
+#box {
+  width: 50%;
+  height: 420px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  align-items: center;
+  transform: translate(-50%,-50%);
+  color: white;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  border-color: #ffffff;
+  border-radius:80px 0px 80px 0px;
+  border-width: 5px;
+  box-shadow:	6px	6px	6px 	rgba(10, 10, 10, 0.35);
+}
+#div1{
+  left: -22%;
+  position: relative;
+  
+}
+#div2{
+ left: -22%;
+  position: relative;
+}
+#div3{
+  left: -22%;
+  position: relative;
+}
+#div4{
+ left: -22%;
+  position: relative;
+}
+#div5{
+  left: -22%;
+  position: relative;
+}
+#div6{
+  top: -248px;
+  left: 24%;
+  position: relative;
+}
+#div7{
+  top: -248px;
+  left: 24%;
+  position: relative;
+}
+#div8{
+  top: -248px;
+  left: 24%;
+  position: relative;
+}
+#div10{
+  top: -244px;
+  left:24%;
+  position: relative;
+}
+#div11{
+  top: -230px;
+  left: 28%;
+  position: relative;
 }
 .btn{
-    font-weight: bold;
-    border:none;
-    font-size: 15px;
-    border-radius: 50px;
-    outline: none;
-    transition: 0.2s;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    background:#3b3c8e ;
-    color: white;
-    cursor: pointer;
-    width: 30%;
-    height: 25px;
-    box-shadow:	6px	6px	6px 	rgba(10, 10, 10, 0.35);
-   
-}
-.btn1{
   font-weight: bold;
-  border: none;
-  border-radius: 0 50px 50px 0;
+  border:none;
+  font-size: 15px;
+  border-radius: 50px;
   outline: none;
   transition: 0.2s;
   letter-spacing: 1px;
@@ -117,30 +101,46 @@ body{
   background:#3b3c8e ;
   color: white;
   cursor: pointer;
-  width: 20%;
-  height: 40px;
-  box-shadow:	3px	3px	rgba(10, 10, 10, 0.35);
-  position: relative;
-  top: 8px;
-  
+  width: 30%;
+  height: 25px;
+  box-shadow:	6px	6px	6px 	rgba(10, 10, 10, 0.35);
+ 
+}
+.btn1{
+font-weight: bold;
+border: none;
+border-radius: 0 50px 50px 0;
+outline: none;
+transition: 0.2s;
+letter-spacing: 1px;
+text-transform: uppercase;
+background:#3b3c8e ;
+color: white;
+cursor: pointer;
+width: 20%;
+height: 40px;
+box-shadow:	3px	3px	rgba(10, 10, 10, 0.35);
+position: relative;
+top: 8px;
+
 }
 .sltc{
-    font-weight: bold;
-    font-size: 10px;
-    border: 1px solid white ;
-    border-radius: 50px;
-    outline: none;
-    transition: 0.2s;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    background:#3b3c8e ;
-    color: white;
-    cursor: pointer;
-    width: 35%;
-    height: 20px;
+  font-weight: bold;
+  font-size: 10px;
+  border: 1px solid white ;
+  border-radius: 50px;
+  outline: none;
+  transition: 0.2s;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background:#3b3c8e ;
+  color: white;
+  cursor: pointer;
+  width: 35%;
+  height: 20px;
 
 }
 .h22{
-    font-family: Script MT;
-    font-size: 40px;
-  }
+  font-family: Script MT;
+  font-size: 40px;
+}
