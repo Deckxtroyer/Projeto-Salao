@@ -29,10 +29,10 @@
 
         <div id="box">
             <center>
-                    <h2 class="h22">Tela de Cadastro</h2><img style="width: 100px; height: 100px;border-radius:50%;position:absolute;
-                                left: 600px;top: 5px;border: 1px solid #fff;" name="img" id='img'>
-                                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		
+                    <h2 class="h22">Tela de Cadastro</h2>
+                    <img style="width: 100px; height: 100px;border-radius:50%;position:static;
+                                left: 350px;top: 10px;border: 1px solid #fff;" name="img" id='img'>
+
 		<script>
 			function previewImagem(){
 				var arquivo = document.querySelector('input[name=arquivo]').files[0];
@@ -54,9 +54,10 @@
 
                 <form method="POST" action="cadastrar.php">
                         <font color="white" size="3px">
-
-
                         <div id="div1">
+                        
+                                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		
                                 <img src="user-3.png" width="22px" height="22px" class="img1">
                                 <input type="text" name="nome" class="textbox" required>
                         </div><br>

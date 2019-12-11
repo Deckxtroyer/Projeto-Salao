@@ -28,7 +28,7 @@ body {
 
 #box {
     width: 60%;
-    height: 430px;
+    height: 530px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -72,6 +72,7 @@ body {
     top: -244px;
     left: 24%;
     position: relative;
+    margin-top: 10px;
 }
 
 #div7 {
@@ -94,7 +95,7 @@ body {
 
 #div11 {
     top: -223px;
-    left: 28%;
+    left: 23%;
     position: relative;
 }
 
